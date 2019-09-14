@@ -1,0 +1,25 @@
+{
+  "name": "mobx-raw",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc",
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellguimaraes/mobx-raw.git"
+  },
+  "author": "Wellington Guimaraes<wellguimaraes@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "mobx": "^5.13.0",
+    "mobx-async": "^5.0.0"
+  },
+  "devDependencies": {
+    "mobx": "^5.13.0",
+    "mobx-async": "^5.0.0"
+  }
+}
